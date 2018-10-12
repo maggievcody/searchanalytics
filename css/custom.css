@@ -3,6 +3,14 @@
 body {
 	background: #525252;
   margin-top: -260px;
+  width: 65%;
+}
+
+.book {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  tranform: translate(-200, -300);
 }
 
 .circlemain {
@@ -11,7 +19,7 @@ body {
   width: 270px;
   height: 270px;
   border-radius: 200px;
-  margin-left: 568px;
+  margin-left: 107px;
   top: 434px;
   z-index: 1;
   animation: circlemain_fade 7.8s;
@@ -263,15 +271,13 @@ body {
 
 
 
-
-
 .rectangle {
   width: 400px;
   height: 600px;
   background-color: #f68357;
-  margin-left: 500px;
   margin-top: 60px;
   position: absolute;
+  margin-left: 40px;
 }
 
 .whiterectangle {
@@ -281,12 +287,12 @@ body {
   top: 20%;
   position: relative;
   z-index: 1;
-  margin-left: 500px;
   top: 560px;
+  margin-left: 40px;
 }
 
 .type {
-  margin-left: 520px;
+  margin-left: 60px;
   top: 485px;
   z-index: 1;
   position: relative;
@@ -360,9 +366,9 @@ h3 {
 .logo {
   width: 58px;
   height: auto;
-  margin-left: 810px;
-  top: 612px;
-  position: fixed;
+  margin-left: 350px;
+  margin-top: 442px;
+  position: absolute;
   z-index: 1;
   animation: logo_fade 6s;
 }
@@ -378,24 +384,3 @@ h3 {
 
 
 
-
-
-
-
-
-
-
-
-/* Save the code below for later */
-/*
-
-@keyframes woah {
-	0% 	{ transform: rotate(0deg); width: 0px; height: 0px; border-radius: 0%; opacity: 1; }
-	20%	{ transform: rotate(0deg); width: 300px; height: 0px; border-radius: 0%; opacity: 1; }
-	40%	{ transform: rotate(0deg); width: 300px; height: 300px; border-radius: 0%; opacity: 1; }
-	60%	{ transform: rotate(-360deg); width: 300px; height: 300px; border-radius: 0%; opacity: 1; }
-	80% 	{ transform: rotate(-360deg); width: 10px; height: 10px; border-radius: 100%; opacity: 1;  }
-	100% 	{ transform: rotate(-360deg); width: 600px; height: 600px; border-radius: 100%; opacity: 0; }
-}
-
-*/
